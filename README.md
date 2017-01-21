@@ -15,3 +15,5 @@ Configure it via _abc.set(property, value).
 You will have 1 second time for own configuration. After 1s Ads Blocker Detector starts work.
 
 If you find a bug, please report it.
+
+User can style default message via abd-message CSS class.
