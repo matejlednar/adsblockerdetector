@@ -1,0 +1,34 @@
+/*
+Ads Blocker Detector CSS file
+*/
+/* 
+    Created on : 21-Jan-2017, 17:44:53
+    Author     : Matej Lednár <PhDr.Matej Lednár, PhD.>
+*/
+
+.ads-blocker-detector {
+    height: 100%;
+    width : 100%;    
+}
+
+html {
+    overflow: hidden;
+}
+
+body.ads-blocker-detector {
+    position : relative;
+}
+
+div.ads-blocker-detector {
+    position : absolute;
+    top : 0;
+    left : 0;        
+}
+
+div.ads-blocker-detector table {
+    text-align: center;
+}
+
+div.ads-blocker-detector table td {
+    vertical-align: middle;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ads Blocker Detector</title>
+        <meta charset="utf-8">
+        <meta name="author" content="PhDr. Matej Lednár, PhD.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="../../adsblockerdetector.js"></script>
+        <link rel="stylesheet" href="../../adsblockerdetector.css">
+    </head>
+    <body>
+        <h1>Ads Blocker Detector</h1>
+        <h2>Website demo</h2>
+        <div class="advertisement">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Github -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-4338189745762135"
+                 data-ad-slot="9776480627"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <script>
+            _abd.set("messages", {
+                en: "Turn your ads blocker off"
+            });
+            _abd.set("callback", function(detected) {
+                if (detected) {
+                    alert("Ads blocker active");
+                }
+                else {
+                    alert("Good job");
+                }
+            });
+
+        </script>
+    </body>
+</html>
