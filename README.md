@@ -12,8 +12,8 @@
 
 &lt;script src="path\to\adsblockerdetector.js"&gt;&lt;script src="\path\to\adsblockerdetector.js"&gt;&lt;script&gt;
 
-Configure it via _abc.set(property, value).
-You will have 1 second time for own configuration. After 1s Ads Blocker Detector starts work.
+Configure Ads Blocker Detector via _abc.set(property, value).
+You will have 1 second time for own configuration. After 1s Ads Blocker Detector starts work. You can change this timer via configuration.
 
 If you find a bug, please report it.
 
