@@ -6,6 +6,7 @@
 - user can remove content and display only message
 - user can decide for internal or external CSS usage
 - user can only detect ads blocker and use own action
+- user can set own autostart timer, default time is 1s
 
 ##How to use Ads Blocker Detector
 
