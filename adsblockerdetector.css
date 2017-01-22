@@ -12,7 +12,7 @@
     width : 100%;    
 }
 
-html {
+html.ads-blocker-detector {
     overflow: hidden;
 }
 
