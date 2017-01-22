@@ -1,10 +1,11 @@
-/*
-Ads Blocker Detector CSS file
-*/
 /* 
-    Created on : 21-Jan-2017, 17:44:53
-    Author     : Matej Lednár <PhDr.Matej Lednár, PhD.>
-*/
+ * Ads Blocker Detector CSS file
+ * 
+ * Author: PhDr. Matej Lednár, PhD.
+ * Website: work.mldgroup.com
+ * GitHub: https://github.com/matejlednar/adsblockerdetector
+ * Libraries required: jQuery
+ */
 
 .ads-blocker-detector {
     height: 100%;
