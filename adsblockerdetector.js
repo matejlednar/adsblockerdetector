@@ -33,12 +33,12 @@ var _abd = {
         var tableStyle = "";
         var tdStyle = "";
         var message = "";
-        if (this._config.css == "inline") {
+        if (this._config.css === "inline") {
             tableStyle = "style='width:100%;height:100%;text-align:center'";
             tdStyle = "style='vertical-align:middle'";
         }
         message = "<table class='ads-blocker-detector' " + tableStyle + "><tr><td " + tdStyle + ">";
-        if (language == "all") {
+        if (language === "all") {
             for (var prop in conf.messages) {
                 message += "<h1 class='abd-message'>" + conf.messages[prop] + "</h1>";
             }
@@ -67,12 +67,12 @@ var _abd = {
         if (conf.removeContent) {
             body.innerHTML = "";
         }
-        if (conf.css == "external") {
+        if (conf.css === "external") {
             html.classList.add("ads-blocker-detector");
             body.classList.add("ads-blocker-detector");
             div.classList.add("ads-blocker-detector");
         }
-        if (conf.css == "inline") {
+        if (conf.css === "inline") {
             div.style.position = "absolute";
             div.style.height = "100%";
             div.style.width = "100%";
@@ -102,25 +102,25 @@ var _abd = {
         var detected = false;
 
         var height = getComputedStyle(ad.parentNode).height;
-        if (parseInt(height) == 0) {
+        if (parseInt(height) === 0) {
             detected = true;
         }
         height = getComputedStyle(ad).height;
-        if (parseInt(height) == 0) {
+        if (parseInt(height) === 0) {
             detected = true;
         }
 
         var display = getComputedStyle(ad).display;
-        if (display == "none") {
+        if (display === "none") {
             detected = true;
         }
 
         var visibility = getComputedStyle(ad).visibility;
-        if (visibility == "hidden") {
+        if (visibility === "hidden") {
             detected = true;
         }
 
-        if (ad.innerHTML == "") {
+        if (ad.innerHTML === "") {
             detected = true;
         }
 
@@ -175,7 +175,7 @@ var _abd = {
         if (this._config._timeout) {
             return this._detectBlocker();
         } else {
-            console.warn("Wait for timeout please.")
+            console.warn("Wait for timeout please.");
         }
     }
 };
