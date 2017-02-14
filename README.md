@@ -21,3 +21,8 @@ User can style default message via abd-message CSS class.
 
 ##Dependencies
 jQuery library is required.
+
+##Version 2.0
+_abd.init(); // runs Ads Blocker Detector
+
+timeout was increased to 1.5s (mobile devices latency problem)
